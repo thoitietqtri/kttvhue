@@ -1,0 +1,1 @@
+Đặt file PDF bản tin Huế cần up vào thư mục này.

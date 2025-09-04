@@ -1,0 +1,8 @@
+
+__pycache__/
+*.pyc
+bantin/*.pdf
+bantin/*.PDF
+tools/*.log
+after_upload.png
+.env
