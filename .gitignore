@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 __pycache__/
 *.py[cod]
 .env
@@ -12,3 +13,13 @@ tools/*.log
 /*.pdf
 !bantin/*.pdf
 
+=======
+
+__pycache__/
+*.pyc
+bantin/*.pdf
+bantin/*.PDF
+tools/*.log
+after_upload.png
+.env
+>>>>>>> d8ea16d163fe67f964295fe00aa9fbf3a4c88c3a
