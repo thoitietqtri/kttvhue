@@ -2,8 +2,8 @@ name: Auto Upload BanTin
 
 on:
   schedule:
-    # 04:30 ICT hằng ngày = 21:30 UTC ngày hôm trước
-    - cron: '30 21 * * *'
+    # 03:45 ICT hằng ngày = 21:30 UTC ngày hôm trước
+    - cron: '45 20 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -19,8 +19,8 @@ jobs:
     env:
       PORTAL_URL: ${{ secrets.PORTAL_URL }}   # vd: http://222.255.11.117:8888/Login.aspx
       UPLOAD_URL: ${{ secrets.UPLOAD_URL }}   # vd: http://222.255.11.117:8888/UploadFile.aspx
-      USERNAME:   ${{ secrets.USERNAME }}     # QTRI
-      PASSWORD:   ${{ secrets.PASSWORD }}     # Qtri
+      USERNAME:   ${{ secrets.USERNAME }}     # THUE
+      PASSWORD:   ${{ secrets.PASSWORD }}     # Hue2024@
 
     steps:
       - name: Checkout repo
