@@ -86,19 +86,11 @@ async def login(page, username, password):
 async def upload_file(page, bantin_path: Path, hoso_path: Path | None):
     await page.goto(UPLOAD_URL, wait_until="domcontentloaded", timeout=TIMEOUT)
 
-<<<<<<< HEAD
-    # Nếu cần chọn dropdown, thêm ở đây (đã để mặc định nên tạm bỏ qua).
-    # Ví dụ:
-    # selects = page.locator("select")
-    # try:
-    #     await selects.nth(0).select_option(label="TP Huế")
-=======
     # Nếu cần chọn dropdown, thêm ở đây (đã để mặc định nên em tạm bỏ qua).
     # Ví dụ:
     # selects = page.locator("select")
     # try:
     #     await selects.nth(0).select_option(label="Quảng Trị")
->>>>>>> d8ea16d163fe67f964295fe00aa9fbf3a4c88c3a
     #     await selects.nth(1).select_option(label="Khí tượng thủy văn Bình thường")
     #     await selects.nth(2).select_option(label="Thời tiết điểm đến 10 ngày")
     #     await selects.nth(3).select_option(label="Thời tiết điểm đến 10 ngày")
