@@ -2,8 +2,8 @@ name: Auto Upload Bản tin (Huế)
 
 on:
   schedule:
-    # 03:25 ICT hằng ngày = 20:25 UTC ngày hôm trước
-    - cron: '25 20 * * *'
+    # 04:00 ICT hằng ngày = 21:00 UTC ngày hôm trước
+    - cron: "0 21 * * *"
   workflow_dispatch:
 
 concurrency:
